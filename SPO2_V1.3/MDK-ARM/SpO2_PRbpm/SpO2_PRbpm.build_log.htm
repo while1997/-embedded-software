@@ -1,0 +1,71 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.28.0.0
+Copyright (C) 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: LC LC, LC, LIC=PE7DL-0Y2EG-SB7EJ-UG9I7-IAFN6-RSDQX
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.28.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.28.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      Segger\JL2CM3.dll V2.99.36.0
+Dialog DLL:      TCM.DLL V1.36.2.0
+ 
+<h2>Project:</h2>
+C:\Users\NING MEI\Documents\Tencent Files\2355639218\FileRecv\脉搏血氧计V1.2(1)\脉搏血氧计V1.3\MDK-ARM\SpO2_PRbpm.uvprojx
+Project File Date:  07/01/2020
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'SpO2_PRbpm'
+compiling spo2datahandle.c...
+..\Src\spo2datahandle.c(201): warning:  #177-D: variable "flag"  was declared but never referenced
+    static uint8_t flag=0;            /*1是显示，0是刷新*/
+..\Src\spo2datahandle.c(574): warning:  #177-D: variable "flag"  was declared but never referenced
+    static uint8_t flag=0;            /*1是显示，0是刷新*/
+..\Src\spo2datahandle.c(977): warning:  #550-D: variable "red_peak_cnt"  was set but never used
+  		u8 red_peak_cnt=0;
+..\Src\spo2datahandle.c(978): warning:  #550-D: variable "red_troughs_cnt"  was set but never used
+  		u8 red_troughs_cnt=0;
+..\Src\spo2datahandle.c(979): warning:  #177-D: variable "loop"  was declared but never referenced
+  		int loop=0;
+..\Src\spo2datahandle.c: 5 warnings, 0 errors
+linking...
+Program Size: Code=20472 RO-data=7300 RW-data=268 ZI-data=12828  
+FromELF: creating hex file...
+"SpO2_PRbpm\SpO2_PRbpm.axf" - 0 Error(s), 5 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.5.1.pack
+                ARM.CMSIS.5.5.1
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.2.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32L1xx_DFP.1.2.0.pack
+                Keil.STM32L1xx_DFP.1.2.0
+                STMicroelectronics STM32L1 Series Device Support and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_SpO2_PRbpm
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include
+  C:\Keil_v5\ARM\PACK\Keil\STM32L1xx_DFP\1.2.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.2.0
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
